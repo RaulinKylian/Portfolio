@@ -9,17 +9,26 @@
     </head>
 <body>
   <header>
-    <p>Kylian Raulin</p>
-    <nav>
+    <p class="name">Kylian Raulin</p>
+    <nav id="nav_desktop">
       <div class="navbar"> 
          <ul>
            <li><a href="#Formation_Experience">Formations & Expériences</a></li>
            <li><a href="#Competences">Compétences</a></li>
            <li><a href="#Contact">Contact</a></li>
-           <li><p>Mode sombre</p></li>
+           <!-- <li><p>Mode sombre</p></li> -->
         </ul>
       </div>
     </nav>
+    <nav id="nav_mobile">
+      <label for="toggle">☰</label>
+      <input type="checkbox" id="toggle">
+      <div class="main_pages">
+          <a href="#Formation_Experience">Formations & Expériences</a>
+          <a href="#Competences">Compétences</a>
+          <a href="#Contact">Contact</a>
+      </div>
+  </nav>
   </header>
 
   <section style="background-color: black;">
